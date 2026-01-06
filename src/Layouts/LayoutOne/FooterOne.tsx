@@ -6,7 +6,7 @@ const FooterOne = () => {
     <div className="footer-one">
       <Grid container spacing={2}>
         <Grid size={{ xs: 12, md: 4 }} className="footer-section">
-          <Box component="img" src="./images/Logo_MES_White_2.png" height="400px" />
+          <Box component="img" src="./images/Logo_MES_White_2.png" height="20rem" />
         </Grid>
         <Grid size={{ xs: 12, md: 4 }} className="footer-box">
           <Typography variant="h5">Thank you for stopping by</Typography>
