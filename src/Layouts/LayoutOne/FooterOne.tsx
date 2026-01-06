@@ -21,7 +21,7 @@ const FooterOne = () => {
         </Grid>
 
         <Grid size={{ xs: 12, md: 4 }} className="footer-links">
-          <Typography variant="h3">Keep in touch</Typography>
+          <Typography variant="h6">Keep in touch</Typography>
           <div className="footer-section">
             <IconButton
               size="medium"

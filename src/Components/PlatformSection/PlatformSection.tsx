@@ -4,8 +4,12 @@ const PlatformSection = () => {
     return (
         <div id="platform" className="section platform-section">
             <Typography variant="h4" className="section-title">Platform</Typography>
-
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Make an educated vote this{" "}
+                <a href="https://macengsociety.ca/elections" target="_blank" className="text-secondary bold text-no-decoration">election</a>:</p>
+            <p><b className="text-secondary">When to Vote:</b> Jan 12th-14th</p>
+            <p><b className="text-secondary">Where to Vote:</b> <a href="https://mcmaster.simplyvoting.com/" target="_blank" className="text-light text-no-decoration">Voting will be done online via MSU SimplyVoting.</a></p>
 
             <Grid container spacing={4}>
 
