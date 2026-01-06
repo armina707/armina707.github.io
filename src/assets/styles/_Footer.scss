@@ -2,10 +2,23 @@
   background-color: $theme-primary;
   color: $light;
   .footer-box {
-    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+
+  .footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
