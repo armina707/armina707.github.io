@@ -1,0 +1,17 @@
+.experience-section{
+  border-radius: 25px !important;
+  min-height: 25vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  background: url("../Engineering-technology-Building-2.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.658);
+  background-position: center;
+  background-size: cover;
+  
+  .experience-card {
+    background-color: $theme-secondary;
+    padding: 50;
+    border-radius: 25px;
+  }
+}

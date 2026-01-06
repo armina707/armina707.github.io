@@ -1,0 +1,23 @@
+
+.bio-section {
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    img {
+      border-radius: 25px;
+      width: 25vw;
+      @media screen and (max-width: $md) {
+        width: 50vw;
+      }
+    }
+  }
+  .profile-txt {
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

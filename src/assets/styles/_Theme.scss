@@ -1,0 +1,34 @@
+$theme-primary: #7A003C;
+$theme-secondary: #FDBF57;
+$theme-muted: #595959;
+$light: white;
+
+$xs: 0px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+.section {
+  scroll-margin-top: 150px;
+  margin: 10px;
+  padding-top: 10px;
+  justify-content: center;
+  
+}
+
+.text-muted {
+  color: $theme-muted;
+}
+
+.text-secondary {
+  color: $theme-secondary;
+}
+
+.text-light {
+  color: $light;
+}
+
+.section-title{
+  font-weight: 600 !important;
+}
