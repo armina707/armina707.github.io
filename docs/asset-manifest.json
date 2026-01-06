@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.37afe435.css",
-    "main.js": "/static/js/main.74b18221.js",
+    "main.css": "/static/css/main.78c91178.css",
+    "main.js": "/static/js/main.b162cb8d.js",
     "static/media/Engineering-technology-Building-2.jpg": "/static/media/Engineering-technology-Building-2.66b748207d1bc1be5cf9.jpg",
     "index.html": "/index.html",
-    "main.37afe435.css.map": "/static/css/main.37afe435.css.map",
-    "main.74b18221.js.map": "/static/js/main.74b18221.js.map"
+    "main.78c91178.css.map": "/static/css/main.78c91178.css.map",
+    "main.b162cb8d.js.map": "/static/js/main.b162cb8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.37afe435.css",
-    "static/js/main.74b18221.js"
+    "static/css/main.78c91178.css",
+    "static/js/main.b162cb8d.js"
   ]
 }
