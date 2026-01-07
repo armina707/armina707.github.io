@@ -7,7 +7,7 @@ const ExperienceCard = ({ exp }: ExperienceCardProps) => {
         <Card className="experience-card">
             <CardActionArea>
                 <CardContent>
-                    <Grid container alignItems={"center"}>
+                    <Grid container alignItems={"center"} justifyContent={"center"}>
                         <Grid size={{ lg: 4, sm: 6 }}>
                             <img
                                 width="150px"
@@ -16,12 +16,12 @@ const ExperienceCard = ({ exp }: ExperienceCardProps) => {
                                 alt={exp.title} />
                         </Grid>
                         <Grid size={{ lg: 8, sm: 6 }}>
-                            <Stack direction={"column"} spacing={3}>
+                            <Stack direction={"column"} spacing={2} paddingTop={"10px"}>
                                 <Typography variant="h5">{exp.title}</Typography>
 
-                                <Typography variant="subtitle1">{exp.subTitle}</Typography>
+                                <Typography variant="subtitle1" lineHeight={1}>{exp.subTitle}</Typography>
 
-                                <Typography variant="body1" color="text.disabled">{exp.range}</Typography>
+                                <Typography variant="body1" color="text.disabled" lineHeight={1}>{exp.range}</Typography>
                             </Stack>
                         </Grid>
                     </Grid>
