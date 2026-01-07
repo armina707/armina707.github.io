@@ -15,11 +15,11 @@ const AboutSection = () => {
                     className="profile-txt"
                 >
                     <Typography variant="h5" color="muted">
-                        Hi there, my name is Armina Aryaie,
+                        Armina Aryaie for MES President!
 
                     </Typography>
                     <p>
-                        I've worked on the MES for the past 3 years in a variety of capacities: supporting clubs/teams, expanding access to resources, and supporting events for engineering students. I would be honoured to represent you.
+                        Hi there! I’m Armina, and I’m running for MES President. I've worked on the MES for the past 3 years in a variety of capacities: supporting clubs/teams, expanding access to resources, and supporting events for engineering students. I would be honoured to represent you.
                     </p>
                 </Grid>
             </Grid>
