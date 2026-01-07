@@ -78,7 +78,7 @@ const MobileMenu = () => {
             aria-label="LinkedIn"
             edge="end"
             color="inherit"
-            href="https://www.linkedin.com/in/asad-h-siddiqui/"
+            href="https://www.linkedin.com/in/armina-aryaie/"
             target="_blank"
             sx={{ mr: 1 }}
           >
