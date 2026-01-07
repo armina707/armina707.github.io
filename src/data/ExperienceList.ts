@@ -14,7 +14,7 @@ export const ExperienceList: ExperienceItem[] = [
         range: "Mar 2025 - Present"
     },
     {
-        img: "./images/Sumobot-Logo.jpg",
+        img: "./images/Sumobot-Logo.png",
         title: "Co-President",
         subTitle: "McMaster Sumobot Club",
         range: "May 2024 - May 2025"
@@ -26,7 +26,7 @@ export const ExperienceList: ExperienceItem[] = [
         range: "May 2024 - Apr 2025"
     },
     {
-        img: "./images/Sumobot-Logo.jpg",
+        img: "./images/Sumobot-Logo.png",
         title: "Technical Workshop Lead",
         subTitle: "McMaster Sumobot Club",
         range: "May 2023 - May 2024"

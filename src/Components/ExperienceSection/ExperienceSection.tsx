@@ -41,7 +41,7 @@ const ExperienceSection = () => {
             <Typography variant="h4" sx={{ mb: "40px" }} className="text-light">
                 Experience
             </Typography>
-            <Grid container spacing={3}>
+            <Grid container spacing={3} justifyContent={"space-around"}>
 
                 {
                     ExperienceList.map((exp, index) => {

@@ -6,6 +6,8 @@ import { themeOptions } from "./assets/mui-theme";
 import "./assets/styles/styles.scss";
 import HomePage from './Pages/HomePage/HomePage';
 
+console.log("An optimist says the glass is half full, a pessimist says it's half empty, an engineer says the glass is twice as big as it needs to be.")
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
