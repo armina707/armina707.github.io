@@ -79,7 +79,7 @@ const MobileMenu = () => {
             edge="end"
             color="inherit"
             href="https://www.linkedin.com/in/armina-aryaie/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             sx={{ mr: 1 }}
           >
             <CiLinkedin />
@@ -91,7 +91,7 @@ const MobileMenu = () => {
             edge="end"
             color="inherit"
             href="https://www.instagram.com/armina.707/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             sx={{ mr: 1 }}
           >
             <CiInstagram />

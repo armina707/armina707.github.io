@@ -38,7 +38,7 @@ const DesktopMenu = () => {
           edge="end"
           color="inherit"
           href="https://www.linkedin.com/in/armina-aryaie/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
           sx={{ mr: 1 }}
         >
           <CiLinkedin />
@@ -49,12 +49,12 @@ const DesktopMenu = () => {
           edge="end"
           color="inherit"
           href="https://www.instagram.com/armina.707/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
           sx={{ mr: 1 }}
         >
           <CiInstagram />
         </IconButton>
-        <a href="https://mcmaster.simplyvoting.com" target="_blank">
+        <a href="https://mcmaster.simplyvoting.com" target="_blank" rel="noreferrer" >
           <Button variant="contained" color="secondary">
             <b className="text-light">Vote Now</b>
           </Button></a>

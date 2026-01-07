@@ -44,9 +44,9 @@ const ExperienceSection = () => {
             <Grid container spacing={3}>
 
                 {
-                    ExperienceList.map((exp) => {
+                    ExperienceList.map((exp, index) => {
                         return (
-                            <Grid size={{ md: 6, lg: 5 }}>
+                            <Grid key={index} size={{ md: 6, lg: 5 }}>
                                 <ExperienceCard exp={exp} />
                             </Grid>
                         )

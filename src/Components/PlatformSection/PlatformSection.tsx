@@ -8,9 +8,9 @@ const PlatformSection = () => {
             </p>
 
             <p>Make an educated vote this{" "}
-                <a href="https://macengsociety.ca/elections" target="_blank" className="text-secondary bolder text-no-decoration">election</a>:</p>
+                <a href="https://macengsociety.ca/elections" target="_blank" rel="noreferrer" className="text-secondary bolder text-no-decoration">election</a>:</p>
             <p><b className="text-secondary">When to Vote:</b> Jan 12th - Jan 14th</p>
-            <p><b className="text-secondary">Where to Vote:</b> Voting will be done online via <a href="https://mcmaster.simplyvoting.com/" target="_blank" className="text-light bolder text-no-decoration">MSU SimplyVoting.</a></p>
+            <p><b className="text-secondary">Where to Vote:</b> Voting will be done online via <a href="https://mcmaster.simplyvoting.com/" target="_blank" rel="noreferrer" className="text-light bolder text-no-decoration">MSU SimplyVoting.</a></p>
 
             <Grid container spacing={4}>
 
