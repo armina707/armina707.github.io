@@ -4,7 +4,7 @@ export const ExperienceList: ExperienceItem[] = [
         {
         img: "./images/zebra-Logo.jpg",
         title: "Robotics Coach",
-        subTitle: "McMaster Engineering Society",
+        subTitle: "Zebra Robotics Inc.",
         range: "Feb 2022 - Present"
     },
     {
