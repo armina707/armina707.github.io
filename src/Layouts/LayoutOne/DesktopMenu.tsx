@@ -9,9 +9,17 @@ const DesktopMenu = () => {
         variant="h3"
         color="inherit"
         component="div"
-        sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+        sx={{
+          flexGrow: 1, display: { xs: "none", md: "flex" },
+          fontSize: {
+            xs: '0.8rem',
+            sm: '1rem',
+            md: '1.2rem',
+            lg: '1.5rem',
+          }
+        }}
       >
-        Armina Aryaie
+        Armina Aryaie for MES President
       </Typography>
       <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
         {navList.filter((page) => page.active).map((page) => (

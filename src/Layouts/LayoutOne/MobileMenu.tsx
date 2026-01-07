@@ -34,11 +34,19 @@ const MobileMenu = () => {
           variant="h3"
           color="inherit"
           component="div"
-          sx={{ flexGrow: 1 }}
+          sx={{
+            flexGrow: 1,
+            fontSize: {
+              xs: '1.25rem',
+              sm: '1.75rem',
+              md: '1.2rem',
+              lg: '1.5rem',
+            }
+          }}
         >
-          Armina Aryaie
+          Armina Aryaie for MES President
         </Typography>
-      </Box>
+      </Box >
       <Drawer
         open={open}
         onClose={() => {
